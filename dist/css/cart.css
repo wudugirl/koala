@@ -1,0 +1,77 @@
+ul {
+  background: #fff; }
+  ul li {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 118px;
+    background-color: pink; }
+    ul li .choose {
+      position: absolute;
+      left: 20px;
+      top: 50%;
+      margin-top: -8px;
+      width: 15px;
+      height: 15px; }
+    ul li .cartimg {
+      position: absolute;
+      left: 50px;
+      top: 20px;
+      width: 80px;
+      height: 80px; }
+      ul li .cartimg img {
+        width: 80px;
+        height: 80px; }
+    ul li .desc {
+      position: absolute;
+      left: 144px;
+      top: 20px;
+      width: 210px;
+      height: 80px;
+      margin-right: 210px; }
+      ul li .desc p {
+        margin-top: 12px; }
+    ul li .price {
+      position: absolute;
+      left: 475px;
+      top: 20px; }
+    ul li .amount {
+      position: absolute;
+      left: 585px;
+      top: 50%;
+      margin-top: -11px;
+      width: 90px;
+      height: 20px;
+      border: 1px solid #eaeaea;
+      line-height: 20px;
+      text-align: center;
+      overflow: hidden; }
+      ul li .amount .reduce {
+        float: left;
+        width: 22px;
+        height: 20px; }
+      ul li .amount input {
+        float: left;
+        display: block;
+        width: 40px;
+        height: 20px;
+        border: 0;
+        text-align: center;
+        outline: none; }
+      ul li .amount .add {
+        float: left;
+        width: 20px;
+        height: 20px; }
+    ul li .sum {
+      position: absolute;
+      font-size: 15px;
+      left: 775px;
+      top: 20px; }
+    ul li .del {
+      position: absolute;
+      right: 30px;
+      top: 20px;
+      width: 80px;
+      font-size: 12px; }
+      ul li .del p {
+        margin-top: 15px; }
