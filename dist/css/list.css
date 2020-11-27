@@ -1,0 +1,283 @@
+.logo {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  background-color: #fff;
+  height: 100px; }
+  .logo h1 {
+    float: left;
+    margin-right: 125px; }
+    .logo h1 img {
+      width: 220px;
+      height: 68px; }
+  .logo .search {
+    position: relative;
+    float: left;
+    margin-top: 14px;
+    outline: none;
+    width: 510px;
+    height: 36px;
+    border: 2px solid red;
+    border-radius: 20px; }
+    .logo .search .txt {
+      width: 450px;
+      height: 36px;
+      line-height: 36px;
+      border-right: 0;
+      text-indent: 7px;
+      color: #666;
+      border: 0;
+      outline: none;
+      float: left;
+      border-radius: 18px 0 0 18px; }
+    .logo .search .sub {
+      float: left;
+      width: 60px;
+      height: 36px;
+      line-height: 36px;
+      border: 0;
+      border-radius: 18px;
+      background: red;
+      font-size: 12px;
+      outline: none;
+      color: #fff;
+      cursor: pointer; }
+    .logo .search .List {
+      position: absolute;
+      top: 38px;
+      left: 8px;
+      width: 495px;
+      border: 1px solid #b5b5b5;
+      border-top: none;
+      background: #fff; }
+      .logo .search .List li {
+        padding-left: 7px;
+        height: 30px;
+        line-height: 30px; }
+  .logo .shopping {
+    display: block;
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 14px;
+    width: 110px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 20px; }
+    .logo .shopping img {
+      width: 20px;
+      height: 20px;
+      margin-left: 20px; }
+    .logo .shopping b {
+      margin-left: 15px; }
+
+.top_nav {
+  border-bottom: #eaeaea 1px solid;
+  z-index: 99; }
+  .top_nav .topnav {
+    position: relative;
+    height: 40px;
+    background-color: #fff;
+    line-height: 40px;
+    font-size: 12px; }
+    .top_nav .topnav .menu {
+      position: absolute;
+      left: 0;
+      top: 39px;
+      margin: auto;
+      height: 462px;
+      z-index: 10;
+      margin-top: -1px;
+      font-size: 14px; }
+      .top_nav .topnav .menu li {
+        position: relative;
+        line-height: 39px;
+        height: 39px;
+        margin-left: 6px;
+        background-color: red;
+        color: #fff;
+        width: 164px;
+        padding-left: 14px;
+        border-top: 1px solid #ff5160; }
+        .top_nav .topnav .menu li img {
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          top: 19px;
+          left: 14px;
+          transform: translate(0, -8px); }
+        .top_nav .topnav .menu li .imgred {
+          display: none; }
+        .top_nav .topnav .menu li b {
+          display: inline-block;
+          margin-left: 40px;
+          margin-right: 20px;
+          width: 64px; }
+        .top_nav .topnav .menu li:hover {
+          background-color: #fff; }
+        .top_nav .topnav .menu li:hover .imgred {
+          display: inline-block; }
+        .top_nav .topnav .menu li:hover .imgwrite {
+          display: none; }
+        .top_nav .topnav .menu li:hover b,
+        .top_nav .topnav .menu li:hover span {
+          color: red; }
+    .top_nav .topnav .ctgcard {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 183px;
+      overflow: hidden;
+      border: 1px solid #ff1e3c;
+      width: 930px;
+      height: 459px;
+      text-align: left;
+      max-height: 459px;
+      z-index: 10; }
+      .top_nav .topnav .ctgcard .ctgcard-l {
+        padding-left: 20px;
+        background: #fff;
+        width: 696px;
+        height: 462px; }
+        .top_nav .topnav .ctgcard .ctgcard-l .classify {
+          float: left;
+          width: 330px; }
+          .top_nav .topnav .ctgcard .ctgcard-l .classify h3 {
+            height: 34px;
+            line-height: 34px;
+            font-size: 12px;
+            color: #333;
+            font-weight: bold;
+            border-bottom: 1px solid #a3a3a3; }
+          .top_nav .topnav .ctgcard .ctgcard-l .classify ul {
+            margin-top: 8px;
+            padding-right: 60px; }
+            .top_nav .topnav .ctgcard .ctgcard-l .classify ul li {
+              float: left;
+              height: 34px;
+              line-height: 34px;
+              margin-right: 20px;
+              font-size: 12px; }
+    .top_nav .topnav .topnav-img {
+      display: block;
+      float: left;
+      margin-left: 6px;
+      margin-right: 25px;
+      background-color: red;
+      color: #fff;
+      width: 164px;
+      padding-left: 14px; }
+      .top_nav .topnav .topnav-img img {
+        width: 16px;
+        height: 16px;
+        margin-right: 22px; }
+    .top_nav .topnav a {
+      display: block;
+      float: left;
+      margin: 0 20px;
+      color: #000000; }
+    .top_nav .topnav a:hover {
+      color: red; }
+
+.goodslist {
+  margin: 0 auto;
+  margin-bottom: 6px; }
+  .goodslist ul {
+    overflow: hidden;
+    margin: 0 auto; }
+    .goodslist ul li {
+      position: relative;
+      float: left;
+      width: 262px;
+      height: 412px;
+      margin-right: 10px;
+      margin-bottom: 14px;
+      border: #fff 1px solid;
+      background: #fff;
+      font-size: 12px; }
+      .goodslist ul li .li {
+        width: 262px;
+        height: 412px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 10;
+        cursor: pointer; }
+      .goodslist ul li:hover {
+        border: solid #e31436 1px; }
+      .goodslist ul li a {
+        display: block; }
+        .goodslist ul li a img {
+          display: block;
+          padding: 15px 15px 10px;
+          width: 232px;
+          height: 232px; }
+      .goodslist ul li .goods-desc {
+        width: 234px;
+        padding: 0 14px 11px; }
+        .goodslist ul li .goods-desc .price {
+          height: 22px;
+          line-height: 22px;
+          color: #e31436;
+          margin-top: 5px;
+          overflow: hidden; }
+          .goodslist ul li .goods-desc .price i {
+            font-size: 16px;
+            color: red;
+            margin-top: 1px;
+            margin-left: -3px; }
+          .goodslist ul li .goods-desc .price span {
+            font-size: 22px;
+            color: red; }
+          .goodslist ul li .goods-desc .price img {
+            float: left;
+            width: 71.5px;
+            height: 22px; }
+          .goodslist ul li .goods-desc .price .i {
+            float: left;
+            display: block;
+            width: 50px;
+            height: 22px;
+            color: #151515;
+            background: #ffdeb0; }
+        .goodslist ul li .goods-desc h2 {
+          width: 232px;
+          height: 20px;
+          white-space: nowrap;
+          overflow: hidden;
+          font-weight: normal; }
+        .goodslist ul li .goods-desc .info {
+          height: 20px;
+          font-size: 13px; }
+          .goodslist ul li .goods-desc .info .self {
+            display: inline-block;
+            margin-right: 4px;
+            padding: 0 3px;
+            text-align: center;
+            line-height: 14px;
+            border: 1px solid #e31436;
+            background: #fff;
+            color: #e31436;
+            font-size: 12px;
+            border-radius: 2px; }
+          .goodslist ul li .goods-desc .info .public {
+            display: inline-block;
+            margin-right: 4px;
+            padding: 0 3px;
+            text-align: center;
+            line-height: 14px;
+            border: 1px solid #e31436;
+            background: #e31436;
+            color: #fff;
+            font-size: 12px;
+            border-radius: 2px; }
+        .goodslist ul li .goods-desc .goodinfo {
+          margin-top: 10px;
+          font-size: 12px;
+          color: #333333; }
+          .goodslist ul li .goods-desc .goodinfo span {
+            float: right;
+            color: #999; }
+        .goodslist ul li .goods-desc .selfflag {
+          margin-top: 4px;
+          color: #999; }

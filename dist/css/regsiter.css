@@ -1,0 +1,246 @@
+::placeholder {
+  color: #eaeaea; }
+
+section header .top {
+  margin: 0 auto;
+  width: 1000px;
+  height: 100px;
+  line-height: 100px; }
+  section header .top .login1 {
+    width: 210px;
+    height: 65px; }
+  section header .top .login2 {
+    float: right;
+    top: 0;
+    right: 40px;
+    width: 504px;
+    height: 100px; }
+
+section .main {
+  border: solid 1px #eaeaea;
+  border: 1px 0;
+  background: #f8f8f8;
+  height: 600px; }
+  section .main .body {
+    position: relative;
+    margin: 0 auto;
+    width: 1000px;
+    height: 600px; }
+    section .main .body .left a {
+      display: block;
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      margin-top: -180px;
+      width: 400px;
+      height: 360px; }
+    section .main .body .left img {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      margin-top: -101px;
+      width: 400px;
+      height: 203px; }
+    section .main .body .right1 {
+      position: absolute;
+      display: block;
+      top: 110px;
+      right: 40px;
+      width: 352px;
+      border: 1px solid #eaeaea;
+      background: #fff; }
+      section .main .body .right1 .login {
+        width: 350px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        border-bottom: #eaeaea solid 1px; }
+        section .main .body .right1 .login .login-tip {
+          position: relative;
+          width: 350px;
+          height: 64px; }
+          section .main .body .right1 .login .login-tip .tip1 {
+            position: absolute;
+            top: 5px;
+            right: 69px;
+            width: 84px;
+            height: 18px; }
+          section .main .body .right1 .login .login-tip .tip2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 64px;
+            height: 64px;
+            cursor: pointer; }
+          section .main .body .right1 .login .login-tip i {
+            position: absolute;
+            top: 33px;
+            display: block;
+            height: 19px;
+            width: 350px;
+            text-align: center;
+            line-height: 19px;
+            color: #333;
+            font-size: 14px;
+            font-weight: bold; }
+        section .main .body .right1 .login .login-content {
+          width: 270px;
+          height: 195px;
+          margin: 0 auto; }
+          section .main .body .right1 .login .login-content p {
+            height: 14px;
+            line-height: 14px;
+            text-align: right;
+            margin-bottom: 8px; }
+            section .main .body .right1 .login .login-content p a {
+              color: #666;
+              font-size: 12px; }
+              section .main .body .right1 .login .login-content p a:hover {
+                color: #ff5160; }
+          section .main .body .right1 .login .login-content input {
+            display: block;
+            box-sizing: border-box;
+            border: 1px solid #eaeaea;
+            border-radius: 18px;
+            width: 270px;
+            outline: none;
+            height: 36px;
+            line-height: 36px;
+            padding-left: 35px;
+            font-size: 14px;
+            color: #d5d5d5;
+            margin-bottom: 16px; }
+          section .main .body .right1 .login .login-content .phone {
+            background: url(../img/phone.png) no-repeat 10px 7px; }
+          section .main .body .right1 .login .login-content .code {
+            position: relative; }
+            section .main .body .right1 .login .login-content .code .pwd {
+              background: url(../img/phone.png) no-repeat 10px 7px; }
+            section .main .body .right1 .login .login-content .code .send {
+              position: absolute;
+              right: 1px;
+              bottom: 6px;
+              border-left: 1px solid #b5b5b5;
+              width: 81px;
+              height: 24px;
+              line-height: 24px;
+              text-align: center; }
+              section .main .body .right1 .login .login-content .code .send a {
+                font-size: 12px;
+                color: #333333; }
+                section .main .body .right1 .login .login-content .code .send a:hover {
+                  color: #ff5160; }
+          section .main .body .right1 .login .login-content button {
+            display: block;
+            box-sizing: border-box;
+            border-radius: 18px;
+            border: 0;
+            width: 270px;
+            height: 36px;
+            line-height: 36px;
+            outline: none;
+            text-align: center;
+            font-size: 14px;
+            color: #d5d5d5;
+            background: red;
+            margin-bottom: 15px; }
+          section .main .body .right1 .login .login-content i {
+            display: block;
+            height: 17px;
+            text-align: center;
+            color: #999;
+            font-size: 13px; }
+            section .main .body .right1 .login .login-content i a {
+              text-decoration: underline; }
+      section .main .body .right1 .bottom {
+        height: 42px; }
+    section .main .body .right2 {
+      position: absolute;
+      display: none;
+      top: 110px;
+      right: 40px;
+      width: 352px;
+      border: 1px solid #eaeaea;
+      background: #fff; }
+      section .main .body .right2 .login {
+        width: 350px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        border-bottom: #eaeaea solid 1px; }
+        section .main .body .right2 .login .login-tip {
+          position: relative;
+          width: 350px;
+          height: 64px; }
+          section .main .body .right2 .login .login-tip .tip1 {
+            position: absolute;
+            top: 5px;
+            right: 69px;
+            width: 84px;
+            height: 18px; }
+          section .main .body .right2 .login .login-tip .tip3 {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 64px;
+            height: 64px;
+            cursor: pointer; }
+          section .main .body .right2 .login .login-tip i {
+            position: absolute;
+            top: 33px;
+            display: block;
+            height: 19px;
+            width: 350px;
+            text-align: center;
+            line-height: 19px;
+            color: #333;
+            font-size: 14px;
+            font-weight: bold; }
+        section .main .body .right2 .login .login-content {
+          width: 270px;
+          margin: 0 auto;
+          text-align: center; }
+          section .main .body .right2 .login .login-content p {
+            display: block;
+            width: 231px;
+            height: 16px;
+            border-radius: 7.5px;
+            padding: 0 7.5px;
+            line-height: 16px;
+            background: #fffbe6;
+            text-align: center;
+            margin-bottom: 25px;
+            color: #f99742; }
+          section .main .body .right2 .login .login-content .rq {
+            margin: 0 auto;
+            width: 140px;
+            height: 140px;
+            line-height: 140px;
+            border: 1px solid #eaeaea;
+            text-align: center;
+            margin-bottom: 16px; }
+            section .main .body .right2 .login .login-content .rq .rqcode {
+              width: 130px;
+              height: 130px; }
+          section .main .body .right2 .login .login-content .desc {
+            position: relative;
+            width: 160px;
+            height: 37px;
+            margin: 0 auto; }
+            section .main .body .right2 .login .login-content .desc img {
+              position: absolute;
+              left: 8px;
+              bottom: 8px;
+              width: 26px;
+              height: 26px; }
+            section .main .body .right2 .login .login-content .desc i {
+              display: block;
+              padding-left: 44px;
+              font-size: 12px;
+              color: #666; }
+      section .main .body .right2 .bottom {
+        height: 42px; }
+
+.copyright {
+  background: #fff;
+  color: #666; }
+  .copyright span {
+    color: #666; }

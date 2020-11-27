@@ -1,0 +1,371 @@
+::placeholder{
+    color: #eaeaea;
+}
+section{
+    // 上
+    header{
+        .top{
+            margin: 0 auto;
+            width: 1000px;
+            height: 100px;
+            line-height: 100px;
+            .login1{
+                width: 210px;
+                height: 65px;
+            }
+            .login2{
+                float: right;
+                top: 0;
+                right: 40px;
+                width: 504px;
+                height: 100px;
+            }
+        }
+    }
+    // 中
+    .main{
+        border: solid 1px #eaeaea;
+        border: 1px 0;
+        background: #f8f8f8;
+        height: 600px;
+        .body{
+            position: relative;
+            margin: 0 auto;
+            width: 1000px;
+            height: 600px;
+            // 左
+            .left{
+                a{
+                    display: block;
+                    position: absolute;
+                    left: 10px;
+                    top: 50%;
+                    margin-top: -180px;
+                    width: 400px;
+                    height: 360px;
+                }
+                img{
+                    position: absolute;
+                    left: 10px;
+                    top: 50%;
+                    margin-top: -101px;
+                    width: 400px;
+                    height: 203px;
+                }
+            }
+            // 右 1
+            .right1{
+                position: absolute;
+                display: block;
+                top: 110px;
+                right: 40px;
+                width: 352px;
+                // height: 349px;
+                border: 1px solid #eaeaea;
+                background: #fff;
+                // 登录
+                .login{
+                    width: 350px;
+                    // height: 288px;
+                    margin: 0 auto;
+                    padding-bottom: 20px;
+                    border-bottom: #eaeaea solid 1px;
+                    // 登陆头
+                    .login-tip{
+                        position: relative;
+                        width: 350px;
+                        height: 64px;
+                        .tip1{
+                            position: absolute;
+                            top: 5px;
+                            right: 69px;
+                            width: 84px;
+                            height: 18px;
+                        }
+                        // a{
+                        //     position: absolute;
+                        //     top: 0;
+                        //     right: 0;
+                        //     width: 64px;
+                        //     height: 64px;
+                        //     cursor: pointer;
+                        //     z-index: 10;
+                        // }
+                        .tip2{
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            width: 64px;
+                            height: 64px;
+                            cursor: pointer;
+                        }
+                        i{
+                            position: absolute;
+                            top: 33px;
+                            display: block;
+                            height: 19px;
+                            width: 350px;
+                            text-align: center;
+                            line-height: 19px;
+                            color: #333;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                    }
+                    // 登录主体
+                    .login-content{
+                        width: 270px;
+                        height: 195px;
+                        margin: 0 auto;
+                        p{
+                            // display: block;
+                            height: 14px;
+                            line-height: 14px;
+                            text-align: right;
+                            margin-bottom: 8px;
+                           a{
+                            color: #666;
+                            font-size: 12px;
+                            &:hover{
+                                color: #ff5160;
+                            }
+                           }
+                        }
+                        input{
+                            display: block;
+                            box-sizing: border-box;
+                            border: 1px solid #eaeaea;
+                            border-radius: 18px;
+                            width: 270px;
+                            outline: none;
+                            height: 36px;
+                            line-height: 36px;
+                            padding-left: 35px;
+                            font-size: 14px;
+                            color: #d5d5d5;
+                            margin-bottom: 16px; 
+                        }
+                        .phone{
+                            background: url(../img/phone.png) no-repeat 10px 7px;
+                        }
+                        .code{
+                            position: relative;
+                            .pwd{
+                                background: url(../img/phone.png) no-repeat 10px 7px;
+                            }
+                            .send{
+                                position: absolute;
+                                right: 1px;
+                                bottom: 6px;
+                                border-left: 1px solid #b5b5b5;
+                                width: 81px;
+                                height: 24px;
+                                line-height: 24px;
+                                text-align: center;
+                                a{
+                                    font-size: 12px;
+                                    color: #333333;
+                                    &:hover{
+                                        color: #ff5160;
+                                    }
+                                }
+                            }
+                        }
+                        button{
+                            display: block;
+                            box-sizing: border-box;
+                            border-radius: 18px;
+                            border: 0;
+                            width: 270px;
+                            height: 36px;
+                            line-height: 36px;
+                            outline: none;
+                            text-align: center;
+                            font-size: 14px;
+                            color: #d5d5d5;
+                            background: red;
+                            margin-bottom: 15px;
+                        }
+                        i{
+                            display: block;
+                            height: 17px;
+                            text-align: center;
+                            color: #999;
+                            font-size: 13px;
+                            a{
+                                text-decoration: underline;
+                            }
+                        }   
+                    }
+                }
+                // 底部
+                .bottom{
+                    height: 42px;
+                }
+            }
+            // 右 2
+            .right2{
+            position: absolute;
+            display: none;
+            top: 110px;
+            right: 40px;
+            width: 352px;
+            // height: 349px;
+            border: 1px solid #eaeaea;
+            background: #fff;
+            // 登录
+            .login{
+                width: 350px;
+                // height: 288px;
+                margin: 0 auto ;
+                padding-bottom: 20px;
+                border-bottom: #eaeaea solid 1px;
+                // 登陆头
+                .login-tip{
+                    position: relative;
+                    width: 350px;
+                    height: 64px;
+                    .tip1{
+                        position: absolute;
+                        top: 5px;
+                        right: 69px;
+                        width: 84px;
+                        height: 18px;
+                    }
+                    // a{
+                    //     position: absolute;
+                    //     top: 0;
+                    //     right: 0;
+                    //     width: 64px;
+                    //     height: 64px;
+                    //     cursor: pointer;
+                    //     z-index: 10;
+                    // }
+                    .tip3{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        width: 64px;
+                        height: 64px;
+                        cursor: pointer;
+                    }
+                    i{
+                        position: absolute;
+                        top: 33px;
+                        display: block;
+                        height: 19px;
+                        width: 350px;
+                        text-align: center;
+                        line-height: 19px;
+                        color: #333;
+                        font-size: 14px;
+                        font-weight: bold;
+                    }
+                }
+                // 登录主体
+                .login-content{
+                    width: 270px;
+                    // height: 195px;
+                    margin: 0 auto;
+                    text-align: center;
+                    p{
+                        display: block;
+                        width: 231px;
+                        height: 16px;
+                        border-radius: 7.5px;
+                        padding:0 7.5px;
+                        line-height: 16px;
+                        background: #fffbe6;
+                        text-align: center;
+                        margin-bottom: 25px;
+                        color: #f99742;
+                    }
+                    .rq{
+                        margin: 0 auto;
+                        width: 140px;
+                        height: 140px;
+                        line-height: 140px;
+                        border: 1px solid #eaeaea;
+                        text-align: center;
+                        margin-bottom: 16px;
+                        .rqcode{
+                            width: 130px;
+                            height: 130px;
+                        }
+                    }
+                    .desc{
+                        position: relative;
+                        width: 160px;
+                        height: 37px;
+                        margin: 0 auto;
+                        
+                        img{
+                            position: absolute;
+                            left: 8px;
+                            bottom: 8px;
+                            width: 26px;
+                            height: 26px;
+                        }
+                        i{  
+                            display: block;
+                            padding-left: 44px;
+                            font-size: 12px;
+                            color: #666;
+                        }
+                    }  
+                } 
+            }
+            // 底部
+            .bottom{
+                height: 42px;
+            }
+        }
+    }
+}
+
+
+    
+  
+  
+}
+
+  // 下
+//   版权
+  .copyright {
+    // height: 150px;
+    // text-align: center;
+    // padding-top: 20px;
+    background: #fff ;
+    color: #666;
+    // p {
+    //   line-height: 26px;
+    //   span {
+    //     margin-right: 30px;
+    //   }
+    // }
+    // a {
+    //   display: block;
+    //   text-align: center;
+    //   line-height: 26px;
+    //   color: #;
+    //   img {
+    //     margin-right: 10px;
+    //   }
+    //   .img01 {
+    //     margin-top: 10px;
+    //     width: 80px;
+    //     height: 30px;
+    //     border-radius: 6px;
+    //     cursor: pointer;
+    //   }
+    //   .img02 {
+    //     margin-top: 10px;
+    //     width: 28px;
+    //     height: 28px;
+    //     border-radius: 50% 50%;
+    //   }
+      span {
+    //     margin-right: 30px;
+        color: #666;
+      }
+    }

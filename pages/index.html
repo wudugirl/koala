@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css"/>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </head>
+  <body>
+      <!-- 顶部通栏 -->
+      <div class="topBox">
+        <div class="topLogo contain">
+            <div class="topimg">
+                <img src="./img/topBox.png" alt="" /></h1>
+            </div>
+            <div class="search">
+              <input type="text" class="txt" value="面膜" />
+              <input type="sumbit" class="sub" />
+            </div>
+          </div>
+      </div>
+    <div>
+      <!-- 头部 -->
+      <header>
+
+        <div id="head" class="head">
+          <!-- <nav class="contain">
+            <div class="nav-l">
+              <span>考拉欢迎你！</span>
+              <a href="http://localhost:3000/regsiter.html">登录</a>
+              <a href="javascript:;">免费注册</a>
+              <a href="javascript:;"
+                >手机考拉
+                <div>
+                  <img src="./img/手机考拉.png" alt="" />
+                  <p>新人下载APP</p>
+                  <p>领10元满减红包</p>
+                </div>
+              </a>
+            </div>
+            <div class="nav-r">
+              <b>每日签到</b>
+              <b>我的订单</b>
+              <a href="javascript:;"
+                >个人中心
+                <ul>
+                  <li>我的优惠券</li>
+                  <li>我的购物津贴</li>
+                  <li>我的红包</li>
+                  <li>我的考拉豆</li>
+                  <em></em>
+                  <li>账户管理</li>
+                  <li>我的实名认证</li>
+                  <li>我的发票抬头</li>
+                  <em></em>
+                  <li>我收藏的商品</li>
+                  <li>我关注的品牌</li>
+                  <em></em>
+                  <li>售后管理</li>
+                </ul>
+              </a>
+              <a href="javascript:;"
+                >客户服务<span></span>
+                <ul>
+                  <li>联系客服</li>
+                  <li>帮助中心</li>
+                  <li>知识产权保护</li>
+                  <li>规则中心</li>
+                </ul>
+              </a>
+              <a href="javascript:;"
+                >充值中心<span></span>
+                <ul>
+                  <li>话费充值</li>
+                  <li>游戏充值</li>
+                  <li>AppStore充值卡</li>
+                </ul>
+              </a>
+              <a href="javascript:;"
+                >消费者权益<span></span>
+                <ul>
+                  <li>消费者告知书</li>
+                </ul>
+              </a>
+              <a href="javascript:;" class="more"
+                >更多<span></span>
+                <ul>
+                  <li>收藏本站</li>
+                  <em></em>
+                  <li>
+                    新浪微博
+                    <div>
+                      <img src="./img/新浪微博.png" alt="" />
+                    </div>
+                  </li>
+                  <li>
+                    微信公众号
+                    <div>
+                      <img src="./img/微信公众号.png" alt="" />
+                    </div>
+                  </li>
+                  <li>招商合作</li>
+                </ul>
+              </a>
+              <b>视频内容</b>
+            </div>
+          </nav> -->
+        </div>
+        <!-- logo一栏 -->
+
+        <div class="logo contain">
+          <h1><img src="./img/logo.png" alt="" /></h1>
+          <div class="search">
+            <input type="text" class="txt" placeholder="面膜" />
+            <input type="sumbit" class="sub" />
+            <ul class="List"></ul>
+          </div>
+          <a class="shopping" href="javascript:;">
+            <img src="./img/购物车.png" alt="" />
+            <b>购物车</b>
+          </a>
+        </div>
+
+        <!--导航栏 -->
+        <div class="top_nav">
+          <div class="topnav contain">
+            <!-- 菜单栏 -->
+            <ul class="menu">
+              <!-- <li>
+                <img class="imgwrite" src="./img/1.png" alt="" />
+                <img class="imgred" src="./img/01.png" alt="" />
+                <b class="menuName">美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/2.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/3.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/4.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/5.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/6.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/7.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/8.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/9.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/10.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/11.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span>
+              </li>
+              <li>
+                <img src="./img/12.png" alt="" />
+                <b>美容彩妆</b>
+                <span>></span> -->
+              </li>
+            </ul>
+            <!-- 选项卡 -->
+            <div class="ctgcard">
+                <div class="ctgcard-l clearfix">
+                    <div class="classify">
+                        <h3>奶粉</h3>
+                        <ul class="clearfix">
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                        </ul>
+                    </div>
+                    <div class="classify">
+                        <h3>奶粉</h3>
+                        <ul class="clearfix">
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                        </ul>
+                    </div>
+                    <div class="classify">
+                        <h3>奶粉</h3>
+                        <ul class="clearfix">
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                            <li>胶原蛋白</li>
+                            <li>葡萄籽</li>
+                        </ul>
+                    </div>
+                </div>
+                      
+            </div>
+            <span class="topnav-img">
+              <img src="./img/2.png" alt="" />
+              所有分类
+            </span>
+            <a href="javascript:;">首页</a>
+            <a href="javascript:;">海外直购</a>
+            <a href="javascript:;">工厂店</a>
+            <a href="javascript:;">品质奶粉</a>
+            <a href="javascript:;">人气面膜</a>
+            <a href="javascript:;">充值</a>
+          </div>
+        </div>
+      </header>
+
+      <!-- 焦点图 -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background:url(./img/banner-1.jpg) no-repeat center;"></div>
+          <div class="swiper-slide" style="background:url(./img/banner-2.png) no-repeat center;"></div>
+          <div class="swiper-slide" style="background:url(./img/banner-3.png) no-repeat center;"></div>
+        </div>
+        
+
+        <div class="button">
+            <!-- 如果需要分页器 -->
+            <p class="swiper-pagination"></p>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- 如果需要滚动条 -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+      <!-- <section>
+                <div class="banner">
+                    <div class="main">
+                        <img src="images/banner.jpg" alt="">
+                    </div>
+                </div>
+                <p class="prev"><</p>
+                <p class="next">></p>
+                <div class="message">
+                    <div class="msg">
+                        <ul>
+                            <li>
+                                <img src="./img/7.png" alt="">
+                                <b>考拉自营</b>
+                            </li>
+                            <li>
+                                <img src="./img/7.png" alt="">
+                                <b>考拉自营</b>
+                            </li>
+                            <li>
+                                <img src="./img/7.png" alt="">
+                                <b>考拉自营</b>
+                            </li>
+                            <li>
+                                <img src="./img/7.png" alt="">
+                                <b>考拉自营</b>
+                            </li>
+                        </ul>
+                        <span></span>
+                    </div>
+                </div>
+            </section> -->
+
+      <!-- 固定侧栏 -->
+      <div id='side' class="side contain">
+        <!-- 左侧 -->
+        <!-- <div class="left">
+          <a href="javascript:;">
+            <h2>满88元包邮</h2>
+            <p>部分商品除外</p>
+          </a>
+          <a href="javascript:;">
+            <h3>热门品牌</h3>
+          </a>
+          <ul>
+            <li>运动户外</li>
+            <li>美妆专区</li>
+            <li>个人家清</li>
+            <li>轻奢馆</li>
+            <li>手表配饰</li>
+            <li>美食生鲜</li>
+            <li>服饰鞋靴</li>
+            <li>家居生活</li>
+            <li>数码家电</li>
+            <li>母婴专区</li>
+            <li>营养保健</li>
+          </ul>
+          <div class="download">
+            <img src="./img/手机考拉.png" alt="" />
+            <b>新人下载APP</b>
+          </div>
+        </div> -->
+        <!-- 右侧 -->
+        <!-- <div class="right">
+          <ul>
+            <li>
+              <div class="img">
+                <img class="imgwrite" src="./img/image (1).png" alt="" />
+                <img class="imgred" src="./img/02.png" alt="" />
+              </div>
+              <p>签到</p>
+            </li>
+            <li>
+              <div class="img">
+                <img class="imgwrite" src="./img/image (1).png" alt="" />
+                <img class="imgred" src="./img/02.png" alt="" />
+              </div>
+              <p>签到</p>
+            </li>
+            <li>
+              <div class="img">
+                <img class="imgwrite" src="./img/image (1).png" alt="" />
+                <img class="imgred" src="./img/02.png" alt="" />
+              </div>
+              <p>签到</p>
+            </li>
+            <li class="goTop">
+              <div class="img">
+                <img class="imgwrite" src="./img/image (1).png" alt="" />
+                <img class="imgred" src="./img/02.png" alt="" />
+              </div>
+              <p>TOP</p>
+            </li>
+          </ul>
+        </div> -->
+      </div>
+
+      <!-- 页面主体 -->
+      <div class="main contain">
+        <img src="./img/recomme.jpg" alt="" />
+
+        <!-- 运动户外 title-->
+        <div class="title">
+          <h2>运动户外</h2>
+          <div class="hot">
+            <span>热搜词：</span>
+            <a href="javascript:;">阿迪达斯</a>
+            <a href="javascript:;">耐克</a>
+            <a href="javascript:;">斯凯奇</a>
+            <a href="javascript:;">安德玛</a>
+          </div>
+          <p><a>更多好货 ></a></p>
+        </div>
+        <!-- 运动户外 content-->
+        <div class="content clearfix">
+          <div class="sport" style="background-image: url(./img/sport1.jpg)">
+            <div class="button">
+              <a href="javascript:;">男运动鞋</a>
+              <a href="javascript:;">女运动鞋</a>
+              <a href="javascript:;">运动服饰</a>
+              <a href="javascript:;">速干T恤</a>
+              <a href="javascript:;">健身服饰</a>
+              <a href="javascript:;">户外背包</a>
+            </div>
+          </div>
+
+          <div class="new">
+            <div class="shoes">
+              <h3>斯凯奇新品上市</h3>
+              <p>热门鞋款低至5.7折</p>
+              <img src="./img/sport2.jpg" alt="" />
+            </div>
+            <div class="shoes">
+              <h3>斯凯奇新品上市</h3>
+              <p>热门鞋款低至5.7折</p>
+              <img src="./img/sport3.jpg" alt="" />
+            </div>
+            <div class="shoes">
+              <h3>斯凯奇新品上市</h3>
+              <p>热门鞋款低至5.7折</p>
+              <img src="./img/sport4.jpg" alt="" />
+            </div>
+            <div class="shoes">
+              <h3>斯凯奇新品上市</h3>
+              <p>热门鞋款低至5.7折</p>
+              <img src="./img/sport5.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- 热卖品牌 -->
+        <div class="brand">
+          <h3>热卖品牌</h3>
+          <div class="hot_brand">
+            <img class="img1" src="./img/brand(1).jpg" alt="" />
+            <img class="img2" src="./img/03.png" alt="" />
+          </div>
+          <div class="hot_brand">
+            <img class="img1" src="./img/brand(2).jpg" alt="" />
+            <img class="img2" src="./img/03.png" alt="" />
+          </div>
+          <div class="hot_brand">
+            <img class="img1" src="./img/brand(3).jpg" alt="" />
+            <img class="img2" src="./img/03.png" alt="" />
+          </div>
+          <div class="hot_brand">
+            <img class="img1" src="./img/brand(4).jpg" alt="" />
+            <img class="img2" src="./img/03.png" alt="" />
+          </div>
+          <div class="hot_brand">
+            <img class="img1" src="./img/brand(5).jpg" alt="" />
+            <img class="img2" src="./img/03.png" alt="" />
+          </div>
+        </div>
+
+        <!-- 热门品牌 -->
+        <div class="popular">
+          <!-- 热门品牌 title -->
+          <div class="title">
+            <h2>热门品牌</h2>
+            <span>全球精选，一网打尽</span>
+          </div>
+          <!-- 热门品牌 content-->
+          <div class="content clearfix">
+            <div class="swiper-left">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="./img/zst.jpg" alt="">
+                                <div class="txt">
+                                    <p class="name">SHISEIDO 资生堂</p>
+                                    <p class="desc">创造美丽生活的文化</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="./img/zst.jpg" alt="">
+                                <div class="txt">
+                                    <p class="name">SHISEIDO 资生堂</p>
+                                    <p class="desc">创造美丽生活的文化</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="./img/zst.jpg" alt="">
+                                <div class="txt">
+                                    <p class="name">SHISEIDO 资生堂</p>
+                                    <p class="desc">创造美丽生活的文化</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 如果需要分页器 -->
+                    <div class="left-pagination"></div>
+                    
+                    <!-- 如果需要导航按钮 -->
+                    <div class="left-button-prev"></div>
+                    <div class="left-button-next"></div>
+                    
+                    <!-- 如果需要滚动条 -->
+                    <!-- <div class="swiper-scrollbar"></div> -->   
+            </div>
+
+            <div class="right">
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+              <div class="quality">
+                <img src="./img/quality(2).jpg" alt="" />
+                <p>好吃的都在三只松鼠</p>
+                <a href="javascript:;">+关注</a>
+                <span>410991人关注该品牌</span>
+                <input type="buttun" value="进入品牌" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 底部 -->
+      <footer>
+        <!-- 服务 -->
+        <div class="service contain clearfix">
+          <ul>
+            <span>正</span>
+            <li>
+              <h3>正品承诺</h3>
+              <p>正品保障 假一赔十</p>
+            </li>
+          </ul>
+          <ul>
+            <span>正</span>
+            <li>
+              <h3>正品承诺</h3>
+              <p>正品保障 假一赔十</p>
+            </li>
+          </ul>
+          <ul>
+            <span>正</span>
+            <li>
+              <h3>正品承诺</h3>
+              <p>正品保障 假一赔十</p>
+            </li>
+          </ul>
+          <ul>
+            <span>正</span>
+            <li>
+              <h3>正品承诺</h3>
+              <p>正品保障 假一赔十</p>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 关于我们 -->
+        <div class="abouts contain">
+          <div class="about">
+            <img class="img_about" src="./img/logo.png" alt="" />
+            <span>关注我们</span>
+            <img src="./img/WB.png" alt="" />
+            <img src="./img/WX.png" alt="" />
+          </div>
+
+          <div class="msg">
+            <ul>
+              <h2>考拉保障</h2>
+              <li>假一赔十</li>
+              <li>廉正举报</li>
+            </ul>
+            <ul>
+              <h2>新手指南</h2>
+              <li>购物流程</li>
+              <li>支付方式</li>
+              <li>支付方式</li>
+            </ul>
+            <ul>
+              <h2>新手指南</h2>
+              <li>购物流程</li>
+              <li>支付方式</li>
+              <li>支付方式</li>
+            </ul>
+            <ul>
+              <h2>新手指南</h2>
+              <li>购物流程</li>
+              <li>支付方式</li>
+              <li>支付方式</li>
+            </ul>
+            <ul>
+              <h2>考拉保障</h2>
+              <li>假一赔十</li>
+              <li>廉正举报</li>
+              <li>支付方式</li>
+            </ul>
+            <ul>
+              <h2>考拉保障</h2>
+              <li>假一赔十</li>
+              <li>廉正举报</li>
+              <li>支付方式</li>
+            </ul>
+          </div>
+
+          <div class="download">
+            <img src="./img/手机考拉.png" alt="" />
+            <p>扫描下载手机版</p>
+          </div>
+        </div>
+
+        <!-- 版权 -->
+        <div class="copyright">
+          <!-- <p>
+            <span>增值电信业务经营许可证:浙B2-20160288</span><span>(浙)网械平台备字[2018]第00007号</span
+            ><span>阿里巴巴版权所有@2003-2020</span><span>隐私政策-考拉海购</span>
+          </p>
+          <p>
+            <span>网络文化经营许可证:浙网文(2020)4340-180号</span
+            ><span>浙江省网络食品销售第三方平台提供者备案:浙网食A33010006</span>
+          </p>
+          <a
+            ><img src="./img/copyright1 (2).png" alt="" /><span> 浙公网安备33010802002216号</span
+            ><span>互联网药品信息服务资格证书编号(浙)-2017-0027</span><span>浙ICP备16011229号</span
+            ><span>自营经营者信息</span></a
+          >
+          <a
+            ><img class="img01" src="./img/copyright1 (1).png" alt="" /><img
+              class="img02"
+              src="./img/copyright1(3).png"
+              alt=""
+          /></a> -->
+        </div>
+      </footer>
+    </div>
+    <script src="./js/common.js"></script>
+    <script src="./js/banner.js"></script>
+    <script src="./js/request.js"></script>
+  </body>
+</html>
